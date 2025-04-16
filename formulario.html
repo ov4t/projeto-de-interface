@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário de Preferências</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label>Nome: <input type="text" name="nome" required></label><br>
+            <label>Email: <input type="email" name="email" required></label><br>
+            <label>Idade: <input type="number" name="idade"></label><br>
+            <label>Data de Nascimento: <input type="date" name="data_nascimento"></label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+            <p>Gênero musical favorito:</p>
+            <label><input type="radio" name="musica" value="rock" required> Rock</label>
+            <label><input type="radio" name="musica" value="pop"> Pop</label>
+            <label><input type="radio" name="musica" value="eletronica"> Eletrônica</label><br>
+
+            <p>Hobbies:</p>
+            <label><input type="checkbox" name="hobbies" value="leitura" required> Leitura</label>
+            <label><input type="checkbox" name="hobbies" value="esportes"> Esportes</label>
+            <label><input type="checkbox" name="hobbies" value="jogos"> Jogos</label><br>
+
+            <label>Cor favorita:
+                <select name="cor">
+                    <option value="azul">Azul</option>
+                    <option value="vermelho">Vermelho</option>
+                    <option value="verde">Verde</option>
+                </select>
+            </label><br>
+
+            <label>Comentário adicional:<br>
+                <textarea name="comentario" rows="4" cols="30"></textarea>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Configurações</legend>
+            <label>Receber novidades por email? 
+                <input type="checkbox" name="newsletter" checked>
+            </label><br>
+            <label>Senha:
+                <input type="password" name="senha" required>
+            </label><br>
+            <label>Escolha um horário:
+                <input type="time" name="horario">
+            </label><br>
+        </fieldset>
+
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

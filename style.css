@@ -1,0 +1,40 @@
+/* Estilos para index.html */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #e73396;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #e73396;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para formulario.html */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+fieldset {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #e73396;
+    border-radius: 8px;
+}
+
+input[type="submit"], input[type="reset"] {
+    margin: 10px;
+    padding: 8px 15px;
+    background-color: #e73396;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
